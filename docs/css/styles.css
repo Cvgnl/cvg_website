@@ -267,16 +267,9 @@ samp {
   font-size: 1em;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
-.radio-canada-big-<uniquifier> {
-  font-family: "Radio Canada Big", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+.logo {
+  font-weight: 550;
 }
-
 pre {
   display: block;
   margin-top: 0;
