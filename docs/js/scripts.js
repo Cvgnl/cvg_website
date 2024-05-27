@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const firstName = "Chuday";
     const lastName = "Viana";
     const location = 'Amsterdam - The Netherlands ';
-    const flagImgHtml = ' &nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg" alt="Flag_of_the_Netherlands" style="width: 26px;">';
     let firstIndex = 0;
     let lastIndex = 0;
     let locationIndex = 0;
@@ -55,9 +54,6 @@ document.addEventListener("DOMContentLoaded", function() {
             lastIndex++;
         } else if (locationIndex < location.length) {
             locationElement.innerHTML += location.charAt(locationIndex);
-            locationIndex++;
-        } else if (locationIndex === location.length) {
-            locationElement.innerHTML += flagImgHtml;
             locationIndex++;
         } 
         timeoutId = setTimeout(typeWriter, 150);

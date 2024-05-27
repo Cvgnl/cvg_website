@@ -268,7 +268,9 @@ samp {
 }
 
 .logo {
-  font-weight: 550;
+  border-radius: 40% !important;
+  width: 70px
+;
 }
 pre {
   display: block;
@@ -10980,4 +10982,10 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.flag-button {
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
 }
