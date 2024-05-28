@@ -268,8 +268,9 @@ samp {
 }
 
 .logo {
-  border-radius: 40% !important;
-  width: 70px;
+  max-width: 18%;
+  height: auto; /* Maintains the aspect ratio */
+  width: auto; /* Maintains the aspect ratio */
 }
 pre {
   display: block;
